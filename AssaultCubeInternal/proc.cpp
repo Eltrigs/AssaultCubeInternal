@@ -1,4 +1,8 @@
 #include "proc.h"
+#include "pch.h"
+#include <Windows.h>
+#include <iostream>
+#include <TlHelp32.h>
 
 /*This function attempts to find a process id based on a string for the process name
 inputs:
